@@ -7,7 +7,7 @@ function dailyLog231() {
     { task: "Code Review", minutes: 40 }
   ];
 
-  const totalSessions = workSessions.length;
+  const totalSessions = workSessions.lengt;
 
   const totalMinutes = workSessions.reduce(
     (sum, session) => sum + session.minutes,
